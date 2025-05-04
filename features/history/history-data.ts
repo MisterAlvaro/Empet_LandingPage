@@ -1,37 +1,44 @@
 export const historyData = [
   {
-    year: "1960",
-    title: "Fundación",
+    year: "1989",
+    title: "Origen de la Idea",
     description:
-      "Empet fue fundada como una empresa estatal para gestionar los recursos petroleros de Cuba, con el objetivo garantizar suministro energético del país en un contexto transformaciones económicas y sociales.",
-    achievements: ["Creación de la primera refinería nacional", "Establecimiento de la sede central en La Habana"],
-  },
-  {
-    year: "1975",
-    title: "Expansión Nacional",
-    description:
-      "La empresa inició un proceso de expansión a nivel nacional, estableciendo operaciones en diferentes provincias y desarrollando infraestructura para la distribución combustibles todo el país.",
-    achievements: ["Construcción de la Terminal Matanzas", "Desarrollo de la red distribución nacional"],
+      "En la antigua Unión del Combustible surge la necesidad de contar con una empresa especializada en mantenimientos a instalaciones petroleras, marcando el inicio de lo que más tarde sería EMPET.",
+    achievements: ["Identificación de la necesidad de una empresa especializada", "Planificación inicial del proyecto"],
   },
   {
     year: "1990",
-    title: "Modernización Tecnológica",
+    title: "Primeros Pasos",
     description:
-      "Ante los desafíos económicos del Período Especial, Empet implementó un programa de modernización tecnológica para optimizar sus procesos y reducir costos operativos, manteniendo el suministro energético país.",
-    achievements: ["Implementación de sistemas automatizados control", "Renovación de equipos refinación"],
+      "Comienza la organización y estructuración de la EMIP (Empresa de Mantenimiento a Instalaciones Petroleras), formando Distritos en las tres principales Refinerías y utilizando las Bases de Reparaciones Metálicas.",
+    achievements: ["Establecimiento de Distritos en refinerías principales", "Creación de bases en Hermanos Díaz y Cienfuegos"],
   },
   {
-    year: "2005",
-    title: "Cooperación Internacional",
+    year: "1992",
+    title: "Expansión Inicial",
     description:
-      "Se establecieron importantes acuerdos de cooperación internacional que permitieron el acceso a nuevas tecnologías y la exploración yacimientos offshore en aguas territoriales cubanas.",
-    achievements: ["Firma de acuerdos con empresas internacionales", "Inicio de exploraciones en aguas profundas"],
+      "Con la creación de la Unión Cuba Petróleo, se amplía la proyección de la Empresa, decidiendo crear dos nuevos Territorios en la Francisco Acanda de la Habana y en los talleres de Caibarien.",
+    achievements: ["Integración a la Unión Cuba Petróleo", "Expansión a nuevos territorios"],
   },
   {
-    year: "2018",
-    title: "Compromiso Ambiental",
+    year: "2002",
+    title: "Fundación Oficial",
     description:
-      "Empet reforzó su compromiso con la sostenibilidad ambiental, implementando tecnologías más limpias y desarrollando proyectos de energías renovables como complemento a actividad principal.",
-    achievements: ["Certificación ISO 14001 en gestión ambiental", "Lanzamiento de proyectos piloto energía solar"],
+      "El 22 de mayo se crea oficialmente la Empresa de Mantenimiento del Petróleo (EMPET) mediante la Resolución No. 215 del Ministro de la Industria Básica, iniciando con las Divisiones Ciudad Habana y Cienfuegos.",
+    achievements: ["Creación oficial de EMPET", "Inicio del Perfeccionamiento Empresarial"],
+  },
+  {
+    year: "2009",
+    title: "Reestructuración Estratégica",
+    description:
+      "EMPET atraviesa un proceso de ajuste estructural, enfocándose en la Construcción, Mantenimiento y Reparación de Capacidades de Almacenamiento de Combustibles y sus Derivados.",
+    achievements: ["Especialización en mantenimiento de capacidades de almacenamiento", "Optimización de la estructura organizativa"],
+  },
+  {
+    year: "Actualidad",
+    title: "EMPET Hoy",
+    description:
+      "La empresa cuenta con una Oficina Central en La Habana y seis Divisiones distribuidas por el territorio nacional, brindando servicios especializados a CUPET y otras empresas nacionales.",
+    achievements: ["Presencia nacional con seis divisiones especializadas", "Posicionamiento líder en servicios de mantenimiento petrolero"],
   },
 ]

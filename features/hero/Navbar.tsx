@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
+
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -42,14 +44,21 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full px-4 py-4 fixed top-0 left-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-[#002e2f]/90 backdrop-blur-sm shadow-md" : "bg-transparent"
-      }`}
+      className={`w-full px-4 py-4 fixed top-0 left-0 z-50 transition-all duration-300 ${isScrolled ? "bg-[#002e2f]/90 backdrop-blur-sm shadow-md" : "bg-transparent"
+        }`}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <Link href="#" className="text-white text-2xl font-bold">
-          Empet
-        </Link>
+        <div className="flex items-center">
+          <Link href="#" className="text-white text-2xl font-bold">
+            <Image
+              src={`/logo/logo.png`}
+              alt="Logo Empet"
+              width={70}
+              height={70}
+              className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
+            />
+          </Link>
+        </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6">
@@ -89,3 +98,4 @@ export default function Navbar() {
     </nav>
   )
 }
+
