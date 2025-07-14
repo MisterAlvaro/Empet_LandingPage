@@ -13,10 +13,9 @@ export default function Navbar() {
   const navLinks = [
     { name: "Inicio", href: "#" },
     { name: "Nosotros", href: "#nosotros" },
-    { name: "Historia", href: "#historia" },
     { name: "Valores", href: "#valores" },
-    { name: "Directivos", href: "#directivos" },
-    { name: "Localizaciones", href: "#localizaciones" },
+    { name: "Historia", href: "#historia" },
+    { name: "Servicios", href: "#directivos" },
     { name: "Contacto", href: "#contacto" },
   ]
 

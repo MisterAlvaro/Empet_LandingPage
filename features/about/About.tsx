@@ -30,11 +30,6 @@ export default function About() {
       title: "Política de Calidad",
       content:
         "Nos comprometemos a satisfacer los requerimientos y expectativas de nuestros clientes mediante servicios especializados de alta calidad. Contamos con un sistema de gestión basado en la norma NC ISO 9001:2015 y un equipo competente en constante capacitación, motivado y comprometido con valores éticos. Garantizamos la disponibilidad de recursos y la mejora continua de nuestros procesos.",
-    },
-    {
-      title: "Valores Fundamentales",
-      content:
-        "Nos distinguimos por nuestra fidelidad a los principios, honestidad en nuestro actuar, profesionalidad en nuestros servicios, creatividad en la búsqueda de soluciones y espíritu de colaboración. Estos valores guían nuestro comportamiento y definen nuestra cultura organizacional.",
     }
   ]
 
@@ -42,7 +37,7 @@ export default function About() {
     <section ref={sectionRef} className="w-full py-20 px-4 bg-white" id="nosotros">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-[#002e2f]">Nosotros</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 gap-8">
           {aboutItems.map((item, index) => (
             <AboutCard key={index} title={item.title} content={item.content} />
           ))}

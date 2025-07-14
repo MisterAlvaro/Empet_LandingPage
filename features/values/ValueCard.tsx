@@ -4,7 +4,7 @@ import { LucideIcon } from "lucide-react"
 interface ValueCardProps {
   icon: LucideIcon
   title: string
-  description: string
+  description: string[]
 }
 
 export default function ValueCard({ icon: Icon, title, description }: ValueCardProps) {
@@ -14,7 +14,11 @@ export default function ValueCard({ icon: Icon, title, description }: ValueCardP
         <Icon size={32} className="icon-rotate" />
       </div>
       <h3 className="text-xl font-bold mb-2 text-[#489e6e]">{title}</h3>
-      <p>{description}</p>
+      <ul className="list-disc list-inside space-y-1">
+        {description.map((point, idx) => (
+          <li key={idx}>{point}</li>
+        ))}
+      </ul>
     </Card>
   )
 }

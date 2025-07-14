@@ -54,14 +54,6 @@ export default function Hero() {
             }}
           >
             <div className="absolute inset-0 bg-black opacity-40"></div>
-            <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
-              <Button
-                className="btn-primary bg-[#489e6e] hover:bg-[#3a7d58] text-white px-8 py-6 text-lg"
-                onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
-              >
-                Contáctanos <ChevronRight className="ml-2" />
-              </Button>
-            </div>
           </div>
         ))}
 

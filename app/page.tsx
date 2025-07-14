@@ -3,10 +3,10 @@ import Hero from "@/features/hero/Hero"
 import About from "@/features/about/About"
 import History from "@/features/history/History"
 import Values from "@/features/values/Values"
-import MainContacts from "@/features/contacts/MainContacts"
-import LocationMap from "@/features/locations/LocationMap"
+import MainContacts from "@/features/services/MainServices"
 import Contact from "@/features/contact/Contact"
 import Footer from "@/features/footer/Footer"
+import MainServices from "@/features/services/MainServices"
 
 export default function Home() {
   return (
@@ -15,8 +15,7 @@ export default function Home() {
       <About />
       <History />
       <Values />
-      <MainContacts />
-      <LocationMap />
+      <MainServices />
       <Contact />
       <Footer />
     </main>
