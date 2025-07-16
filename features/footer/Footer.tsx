@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Empet</h3>
             <p className="text-gray-300">
-              Empresa Petrolera Cubana comprometida con el desarrollo energético sostenible del país.
+              Empresa Petrolera Cubana comprometida con el desarrollo sostenible del país.
             </p>
           </div>
           <FooterSocial />

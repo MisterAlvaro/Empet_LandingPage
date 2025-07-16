@@ -217,3 +217,10 @@
     scroll-behavior: auto !important;
   }
 }
+
+@font-face {
+  font-family: 'Dubiel';
+  src: url('/fonts/Dubiel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

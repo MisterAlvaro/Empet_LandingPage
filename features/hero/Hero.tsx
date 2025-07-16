@@ -11,19 +11,16 @@ export default function Hero() {
 
   const slides = [
     {
+      image: "/images/banner_0.webp",
+    },
+    {
       image: "/images/banner_1.webp",
-      title: "Empet",
-      subtitle: "Impulsando el desarrollo energético de Cuba con excelencia y compromiso",
     },
     {
       image: "/images/banner_2.webp",
-      title: "Innovación Energética",
-      subtitle: "Tecnología de vanguardia para un futuro sostenible",
     },
     {
       image: "/images/banner_3.webp",
-      title: "Compromiso Ambiental",
-      subtitle: "Desarrollando soluciones que respetan nuestro entorno natural",
     },
   ]
 
@@ -53,7 +50,6 @@ export default function Hero() {
               backgroundColor: "#002e2f",
             }}
           >
-            <div className="absolute inset-0 bg-black opacity-40"></div>
           </div>
         ))}
 

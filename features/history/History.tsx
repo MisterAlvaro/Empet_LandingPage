@@ -59,7 +59,7 @@ export default function History() {
                   {/* Imagen */}
                   <div className="relative overflow-hidden rounded-lg shadow-lg">
                     <Image
-                      src={`/placeholder.svg?height=300&width=400&text=${item.year}`}
+                      src={item.image}
                       alt={item.title}
                       width={500}
                       height={400}

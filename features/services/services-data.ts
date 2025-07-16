@@ -1,7 +1,7 @@
 export const servicesData = [
     {
         name: "Reparación de tanques de almacenamiento de combustible e instalaciones asociadas",
-        image: "/placeholder.svg?height=300&width=400&text=Reparación+de+Tanques",
+        image: "/images/Quienes Somos EMPet.mp4_snapshot_00.29_[2025.04.14_12.31.52].jpg",
         description: "Nos especializamos en la construcción, mantenimiento y reparación de tanques de almacenamiento de combustible y todas sus instalaciones auxiliares.",
         manager: {
             name: "Yulexy Fernando Estrada Barzaga",
@@ -11,7 +11,7 @@ export const servicesData = [
     },
     {
         name: "Fabricación de piezas",
-        image: "/placeholder.svg?height=300&width=400&text=Fabricación+de+Piezas",
+        image: "/images/Quienes Somos EMPet.mp4_snapshot_00.32_[2025.04.14_12.32.41].jpg",
         description: "Nos especializamos en la fabricación y recuperación de piezas, así como en la construcción de estructuras metálicas de pequeño y mediano tamaño.",
         manager: {
             name: "Joan Santiesteban Senrra",
@@ -21,7 +21,7 @@ export const servicesData = [
     },
     {
         name: "Inspección y ensayo",
-        image: "/placeholder.svg?height=300&width=400&text=Inspección+y+Ensayo",
+        image: "/images/Quienes Somos EMPet.mp4_snapshot_00.21_[2025.04.14_12.31.17].jpg",
         description: "Nos especializamos en los ensayo destructivos y no destructivos e inspección de estructuras metálicas.",
         manager: {
             name: "Ismeiki Pérez Estrada",
@@ -31,7 +31,7 @@ export const servicesData = [
     },
     {
         name: "Logística",
-        image: "/placeholder.svg?height=300&width=400&text=Logística",
+        image: "/images/Quienes Somos EMPet.mp4_snapshot_02.15_[2025.04.14_12.35.54].jpg",
         description: "Nos especializamos en la carga, descarga y transportación de mercancía.",
         manager: {
             name: "Jose Antonio Rey Hernandez",
