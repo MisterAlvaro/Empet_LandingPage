@@ -15,8 +15,8 @@ export default function Navbar() {
     { name: "Nosotros", href: "#nosotros" },
     { name: "Valores", href: "#valores" },
     { name: "Historia", href: "#historia" },
-    { name: "Servicios", href: "#directivos" },
-    { name: "Contacto", href: "#contacto" },
+    { name: "Servicios", href: "#servicios" },
+    { name: "Contáctanos", href: "#contacto" },
   ]
 
   useEffect(() => {
